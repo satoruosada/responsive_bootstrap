@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ウェブカツ!!レスポンシブデザインBootstrap</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <header class="header js-float-menu">
+        <h1 class="title">Responsive Design</h1>
+
+        <div class="menu-trigger js-toggle-sp-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="nav-menu js-toggle-sp-menu-target">
+          <ul class="menu">
+            <li class="menu-item"><a class="menu-link" href="">TOP</a></li>
+            <li class="menu-item"><a class="menu-link" href="#news">NEWS</a></li>
+            <li class="menu-item"><a class="menu-link" href="#about">ABOUT</a></li>
+            <li class="menu-item"><a class="menu-link" href="#staff">STAFF</a></li>
+            <li class="menu-item"><a class="menu-link" href="#cource">COURCE</a></li>
+            <li class="menu-item"><a class="menu-link" href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
+</div>
+<main>
+  <section class="hero container-fluid js-float-menu-target">
+    <h2 class="hero-title">Responsive Design<br> is so good.</h2>
+  </section>
+
+
+  <!--bgColor-lightGrayはここにつける-->
+  <section class="bgColor-lightGray" id="about">
+    <div class="container section-top">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-top-title"><span>ABOUT</span></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p>レスポンシブWebデザインとは、どんな大きさの画面でも見やすく、使いやすいWebサイトにするために必要なものです。
+            1つのHTML（Webサイトに載せる情報）で配信し、CSS（情報の大きさや位置など表示の指定）はデバイスごとに用意して表示を変えさせます。
+            内容は全て同じですが見せ方が違うということです。HTMLが１つなのでWebサイトに載せる情報を修正や更新する時に作業が1回で済みます。
+            デバイスごとにHTMLがあると修正や更新の作業をHTMLの数だけしなくてはなりません。
+            スマホに対応したWebサイトが検索結果の上位に表示されやすくなる「モバイルフレンドリー」や、スマホ用のページが順位の決め手になる「モバイルファーストインデックス」に対応できます。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section-top section-top-ornament" id="staff">
+    <div class="row">
+      <div class="col">
+        <h2 class="section-top-title"><span>STAFF</span></h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff1.jpg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff2.jpeg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff3.jpeg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff4.jpg" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff5.jpg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff6.jpg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff2.jpeg" alt="">
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-6">
+        <a href="" class="panel panel-hover ">
+          <div class="panel-body">
+            <img src="./images/staff1.jpg" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Copyright © webukatu. All Rights Reserved</p>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
